@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+	<title>Sushi Rolls</title>
+
+	<!-- Dark mode -->
+	<script type="text/javascript" src="js/dark_mode_switcher.js"></script>
+	<!-- Components including -->
+	<script type="text/javascript" src="js/component_import.js"></script>
+</head>
+<body>
+	<include-component href="components\header.php" onload="updateOrdersCountIcon(); ordersList();"></include-component>
+	<div class="margin-zone"></div>
+	<section class="container about-us select-color">
+		<h1>Доставка і оплата</h1>
+		<p>
+			Доставка суші та ролів в м. Івано-Франківськ
+		</p>
+		<p><b>Оформити своє замовлення Ви можете:</b> </p>
+		<ul>
+			<li>на сайті</li>
+			<li>по телефону: +380 800 *** ***</li>
+		</ul>
+		<p>
+			<b>Безкоштовна</b> доставка по місту від 250 грн.
+		</p>
+		<p>Платна доставка - 40 грн.</p>
+		<p>Доставка здійснюється в межах міста</p>
+		<p><b>Оплата замовлення готівкою або карткою </b>(термінали у кур'єрів)</p>
+		
+
+	</section>
+	<!-- Footer -->
+	<include-component href="components\footer.html"></include-component>
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
