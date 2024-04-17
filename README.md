@@ -1,4 +1,5 @@
-**Sushirolls** - is a online store with **responsive design** and **themes**, user **authorization**, role-based **access control**.
+# About SushiRolls
+**SushiRolls** - is a online store with **responsive design** and **themes**, user **authorization**, role-based **access control**.
 ### Technology stack 
 - HTML
 - CSS
